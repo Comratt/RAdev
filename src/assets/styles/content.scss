@@ -1,0 +1,20 @@
+.content {
+  h1 {
+    position: relative;
+    font-size: 28px;
+    line-height: 34px;
+    color: $label-color;
+    font-weight: 700;
+    margin-left: 100px;
+    &:before {
+      content: '';
+      width: 50px;
+      height: 2px;
+      display: block;
+      background-color: red;
+      position: absolute;
+      left: -50px;
+      top: 50%;
+    }
+  }
+}

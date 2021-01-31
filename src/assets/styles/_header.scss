@@ -1,0 +1,38 @@
+.header {
+  background-color: $secondary-light-color;
+  padding: 14px 30px;
+  display: flex;
+  justify-content: space-between;
+  &__left {
+    .contacts {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__right {
+    .main-button:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.second_header {
+  border-bottom: 1px solid #C4C4C4;
+  margin-bottom: 23px;
+  .menu_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    &__item {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: $label-color;
+    }
+  }
+}

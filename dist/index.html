@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__left">
+                <div class="contacts">
+                    <a class="main-link" href="mailto:test_dev@gmail.com">test_dev@gmail.com</a>
+                    <a class="main-link" href="tel:+1234567890">+123 456 78 90</a>
+                </div>
+                <div class="search">
+                    <fieldset>
+                        <label>
+                            <input class="search-field" placeholder="Search" type="text">
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="header__right">
+                <button class="main-button">
+                    3 items
+                    <svg class="main-button__icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.25001 20.1666C8.75627 20.1666 9.16668 19.7562 9.16668 19.2499C9.16668 18.7437 8.75627 18.3333 8.25001 18.3333C7.74375 18.3333 7.33334 18.7437 7.33334 19.2499C7.33334 19.7562 7.74375 20.1666 8.25001 20.1666Z" stroke="#1A1818" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.3333 20.1666C18.8396 20.1666 19.25 19.7562 19.25 19.2499C19.25 18.7437 18.8396 18.3333 18.3333 18.3333C17.8271 18.3333 17.4167 18.7437 17.4167 19.2499C17.4167 19.7562 17.8271 20.1666 18.3333 20.1666Z" stroke="#1A1818" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M0.916656 0.916748H4.58332L7.03999 13.1909C7.12381 13.6129 7.35341 13.992 7.68857 14.2619C8.02374 14.5317 8.44313 14.675 8.87332 14.6667H17.7833C18.2135 14.675 18.6329 14.5317 18.9681 14.2619C19.3032 13.992 19.5328 13.6129 19.6167 13.1909L21.0833 5.50008H5.49999" stroke="#1A1818" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="main-button">
+                    log in
+                    <svg class="main-button__icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 21V19C21 17.9391 20.5172 16.9217 19.6578 16.1716C18.7984 15.4214 17.6328 15 16.4174 15H5.58264C4.36725 15 3.20164 15.4214 2.34222 16.1716C1.48281 16.9217 1 17.9391 1 19V21" stroke="#1A1818" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11 11C13.7614 11 16 8.76142 16 6C16 3.23858 13.7614 1 11 1C8.23858 1 6 3.23858 6 6C6 8.76142 8.23858 11 11 11Z" stroke="#1A1818" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <div class="second_header">
+            <ul class="menu_list">
+                <li class="menu_list__item">BANNER PRINTING</li>
+                <li class="menu_list__item">SIGN PRINTING</li>
+                <li class="menu_list__item">STANDS AND DISPLAYS</li>
+                <li class="menu_list__item">STICKERS</li>
+                <li class="menu_list__item">WINDOW GRAPHICS</li>
+            </ul>
+        </div>
+        <section class="content">
+            <h1>Popular Products</h1>
+            <div class="card_list">
+                <div style="position: relative;" class="card_list__item">
+                    <div class="card_top">
+                        <div class="wish_button">
+                            <svg width="30" height="27" viewBox="0 0 30 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.9484 4.38101C25.3173 3.74954 24.5678 3.24861 23.743 2.90684C22.9182 2.56507 22.0341 2.38916 21.1413 2.38916C20.2485 2.38916 19.3644 2.56507 18.5395 2.90684C17.7147 3.24861 16.9653 3.74954 16.3341 4.38101L15.0242 5.69093L13.7143 4.38101C12.4394 3.10607 10.7102 2.38982 8.90713 2.38982C7.1041 2.38982 5.37492 3.10607 4.09998 4.38101C2.82504 5.65595 2.10879 7.38513 2.10879 9.18816C2.10879 10.9912 2.82504 12.7204 4.09998 13.9953L5.4099 15.3052L15.0242 24.9195L24.6385 15.3052L25.9484 13.9953C26.5799 13.3641 27.0808 12.6147 27.4226 11.7899C27.7644 10.9651 27.9403 10.081 27.9403 9.18816C27.9403 8.29533 27.7644 7.41125 27.4226 6.58642C27.0808 5.7616 26.5799 5.01219 25.9484 4.38101Z" stroke="#CDDDE2" stroke-width="2.80976" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+
+                        </div>
+                        <img src="" alt="">
+                        <div class="star_rate">
+                            <div class="star_rate_item"></div>
+                            <div class="star_rate_item"></div>
+                            <div class="star_rate_item"></div>
+                            <div class="star_rate_item"></div>
+                            <div class="star_rate_item"></div>
+                        </div>
+                    </div>
+                    <div class="card_bottom">
+                        <p class="card-name">Halloween Banners</p>
+                        <p class="price">Starts at <span>7.99$</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="bundle.js"></script>
+    </body>
+</html>

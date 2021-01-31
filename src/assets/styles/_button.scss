@@ -1,0 +1,16 @@
+.main-button {
+  padding: 12px;
+  background-color: $secondary-dark-color;
+  color: $label-color;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  &__icon {
+    margin-left: 20px;
+  }
+}
